@@ -1,5 +1,7 @@
 import React from "react";
 import WeatherDate from "./WeatherDate";
+import Temperature from "./Temperature";
+import Icon from "./Icon";
 
 export default function WeatherData(props) {
   return (
@@ -13,8 +15,14 @@ export default function WeatherData(props) {
       </ul>
       <div className="row">
         <div className="col-6">
-          <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png" />
-          30 °C | °F
+          <div className="d-flex">
+            <div>
+              <Icon icon={props.information.icon} />
+            </div>
+            <div>
+              <Temperature celsius={props.information.temperature} />
+            </div>
+          </div>
         </div>
         <div className="col-6">
           <ul>
