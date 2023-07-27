@@ -1,11 +1,14 @@
 import React from "react";
+import WeatherDate from "./WeatherDate";
 
 export default function WeatherData(props) {
   return (
     <div className="WeatherData">
       <h1>{props.information.city}</h1>
       <ul>
-        <li>Last updated: Sunday 04:20</li>
+        <li>
+          <WeatherDate date={props.information.date} />
+        </li>
         <li className="text-capitalize">{props.information.description}</li>
       </ul>
       <div className="row">
