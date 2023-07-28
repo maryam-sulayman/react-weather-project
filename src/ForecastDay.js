@@ -7,7 +7,7 @@ export default function ForecastDay(props) {
   let day = days[date.getDay()];
   return (
     <div>
-      <div>{day}</div>
+      <div className="ForecastDay">{day}</div>
       <Icon icon={props.forecast.weather[0].icon} size={50} />
       <div className="ForecastTemperatures">
         <span className="ForecastTemperature-max">

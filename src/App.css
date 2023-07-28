@@ -1,6 +1,7 @@
 .App {
   max-width: 700px;
   margin: 40px auto;
+  font-family: "Belanosima", sans-serif;
 }
 
 .App footer {
@@ -9,4 +10,5 @@
 }
 .App a {
   text-decoration: none;
+  color: pink;
 }

@@ -1,8 +1,12 @@
 .Temperature {
-  font-size: 64px;
+  font-size: 76px;
 }
 .units {
   position: relative;
   top: -30px;
   font-size: 16px;
+}
+
+.units a {
+  color: pink;
 }

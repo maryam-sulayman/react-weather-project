@@ -1,12 +1,33 @@
 .Weather {
-  border: 1px solid black;
-  border-radius: 4px;
+  color: white;
+  border-radius: 6px;
   padding: 20px;
+  background-color: #272343;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .Weather h1 {
+  text-align: center;
   margin: 20px 0 0 0;
+  font-size: 60px;
 }
 .Weather ul {
   list-style: none;
   padding: 0;
+}
+.Weather .button {
+  color: #272343;
+  background-color: pink;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+.date {
+  font-size: 20px;
+}
+.display {
+  margin-top: -25px;
+  margin-left: 21px;
+}
+.description {
+  font-size: 21px;
 }

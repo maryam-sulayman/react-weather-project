@@ -22,7 +22,7 @@ export default function WeatherDate(props) {
   }
   return (
     <span>
-      Last updated: {day} at {hours}:{minutes}
+      {day}, {hours}:{minutes}
     </span>
   );
 }

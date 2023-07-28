@@ -4,8 +4,15 @@
 
 .ForecastTemperatures {
   margin-top: 20px;
+  font-size: 24px;
 }
 
 .ForecastTemperature-max {
   margin-right: 10px;
+}
+.ForecastTemperature-min {
+  opacity: 0.7;
+}
+.ForecastDay {
+  font-size: 20px;
 }
