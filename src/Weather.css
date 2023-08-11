@@ -31,3 +31,12 @@
 .description {
   font-size: 21px;
 }
+@media (max-width: 529px) {
+  .description {
+    font-size: 18px;
+  }
+  .display {
+    margin-top: -25px;
+    margin-left: -35px;
+  }
+}

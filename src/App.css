@@ -12,3 +12,9 @@
   text-decoration: none;
   color: pink;
 }
+@media (max-width: 529px) {
+  .App {
+    max-width: 400px;
+    margin: 40px auto;
+  }
+}

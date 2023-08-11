@@ -10,3 +10,8 @@
 .units a {
   color: pink;
 }
+@media (max-width: 529px) {
+  .Temperature {
+    font-size: 60px;
+  }
+}
