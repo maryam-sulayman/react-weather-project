@@ -14,7 +14,7 @@
 }
 @media (max-width: 529px) {
   .App {
-    max-width: 400px;
+    max-width: 500px;
     margin: 40px auto;
   }
 }
